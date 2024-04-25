@@ -1,0 +1,140 @@
+.logo {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #efeeee;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  top: 50%;
+  left: 50%;
+}
+
+form {
+  background: #efeeee;
+  height: 400px;
+  width: auto;
+  text-align: center;
+  padding: 2em;
+}
+
+p {
+  color: #777;
+  margin-bottom: 1em;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+input {
+  width: 500px;
+  border: none;
+  border-radius: 5000px;
+  padding: 1em;
+  background: #efeeee;
+  box-shadow:
+    inset 4px 4px 6px #ccc,
+    inset -4px -4px 6px #fff;
+  margin-bottom: 2em;
+  color: #888;
+  font-family: 'Poppins', sans-serif;
+  
+  &[type="submit"] {
+    width: 200px;
+    box-shadow:
+      4px 4px 6px #ccc,
+      -4px -4px 6px #fff;
+    margin-top: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  &:hover {
+    cursor: text;
+  }
+  &:active {
+    box-shadow:
+      inset 4px 4px 6px #ccc,
+      inset -4px -4px 6px #fff;
+  }
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #aaa;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+  
+  &:hover {
+    color: #aaa;
+  }
+  
+  &:active {
+    color: #ccc;
+  }
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+
+#movieResults {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.btn-primary {
+  background: #efeeee;
+  border: none;
+  border-radius: 5000px;
+  padding: 1em;
+  box-shadow:
+    4px 4px 6px #ccc,
+    -4px -4px 6px #fff;
+  color: #888;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  
+  &:hover {
+    cursor: pointer;
+    background: transparent;
+  }
+  &:active {
+    box-shadow:
+      inset 4px 4px 6px #ccc,
+      inset -4px -4px 6px #fff;
+  }
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+
+
+.card {
+  border: none;
+  background: transparent;
+}
