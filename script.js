@@ -52,12 +52,12 @@ function displayMovies(movies) {
 
 
 
-// Function to display 'No movies found' message
+// Function pour afficher le message 'Aucun films trouvés' 
 function displayNoMoviesFound() {
-    movieResults.innerHTML = '<div class="col"><p class="text-center">No movies found!</p></div>';
+    movieResults.innerHTML = '<div class="col"><p class="text-center">Aucun films trouvés!</p></div>';
 }
 
-// Event listener for 'Read More' button click
+// Event listener pour 'Voir plus' button click
 movieResults.addEventListener('click', async function(event) {
     if (event.target.classList.contains('btn-primary')) {
         const imdbID = event.target.getAttribute('data-imdbid');
@@ -78,7 +78,7 @@ movieResults.addEventListener('click', async function(event) {
     }
 });
 
-// bulle des details du film
+// Pop up details du film
 function displayMovieDetails(movie) {
     const modalBody = document.querySelector('.modal-body');
     if (modalBody) {
